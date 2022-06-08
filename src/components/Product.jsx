@@ -37,6 +37,20 @@ const Container = styled.div`
   }
 `;
 
+const Wrapper = styled.div`
+  position: absolute;
+  top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const Title = styled.h2`
+  font-size: 16px;
+  z-index: 3;
+  color: teal;
+`;
+
 const Circle = styled.div`
   width: 200px;
   height: 200px;
@@ -47,6 +61,8 @@ const Circle = styled.div`
 
 const Image = styled.img`
   height: 75%;
+  margin-top: 20px;
+  border-radius: 20%;
   z-index: 2;
 `;
 
@@ -69,6 +85,9 @@ const Icon = styled.div`
 const Product = ({item}) => {
   return (
     <Container>
+      <Wrapper>
+        <Title>{item.title}</Title>
+      </Wrapper>
       <Circle />
       <Image src={item.img} />
       <Info>

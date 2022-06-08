@@ -78,6 +78,7 @@ const ContactItem = styled.div`
 `;
 
 const PaymentItem = styled.button`
+  font-size: 14px;
   border: none;
   background-color: transparent;
   display: flex;
@@ -93,9 +94,9 @@ const Footer = () => {
   return (
     <Container>
       <Left>
-        <Logo>ACME.Co</Logo>
+        <Logo>ACME Inc</Logo>
         <Desc>
-          ACME Corporation é uma sociedade fictícia que existe no universo dos filmes e animações. Os primeiros produtos a saírem das fábricas foram rolhas de cortiça. A marca foi vista pela primeira vez em 1923 na comédia Safety Last! com Harold LLoyd, depois em 1933 no desenho animado "Buddy's Bug Hunt".
+          ACME Incorporated é uma sociedade fictícia que existe no universo dos filmes e animações. Os primeiros produtos a saírem das fábricas foram rolhas de cortiça. A marca foi vista pela primeira vez em 1923 na comédia Safety Last! com Harold LLoyd, depois em 1933 no desenho animado "Buddy's Bug Hunt".
         </Desc>
         <SocialContainer>
           <SocialIcon color="3B5999">
@@ -120,7 +121,7 @@ const Footer = () => {
           <ListItem>Carrinho de Compras</ListItem>
           <ListItem>Lista de Desejos</ListItem>
           <ListItem>Rastrear Pedido</ListItem>
-          <ListItem>Terms</ListItem>
+          <ListItem>Termos</ListItem>
         </List>
       </Center>
       <Right>
@@ -135,7 +136,7 @@ const Footer = () => {
           <EmailIcon style={{marginRight:"10px"}}/>judsonkerller@gmail.com
         </ContactItem>
         <PaymentItem>
-          <PaidIcon style={{marginRight:"10px"}}/>Pay me a coffee
+          <PaidIcon style={{marginRight:"10px"}}/>buymeacoffee.com/judin
         </PaymentItem>
       </Right>
     </Container>

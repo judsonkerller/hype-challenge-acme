@@ -2,22 +2,22 @@ export const sliderItems = [
   {
     id: 1,
     img: "https://picsum.photos/id/1/500/400",
-    title: "SUMMER SALE",
-    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+    title: "MACBOOK AIR",
+    desc: "COMPRE AGORA AQUELE MAC QUE TANTO SONHOU.",
     bg: "f5fafd",
   },
   {
     id: 2,
     img: "https://picsum.photos/id/2/500/400",
-    title: "AUTUMN COLLECTION",
-    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+    title: "ACESSÓRIOS",
+    desc: "CARREGADOR? BATERIA? ALGUM ACESSÓRIO PARA SEU MACBOOK, TABLET OU CELULAR? SÓ CLICAR EM 'COMPRAR AGORA' E SER FELIZ.",
     bg: "fcf1ed",
   },
   {
     id: 3,
     img: "https://picsum.photos/id/3/500/400",
-    title: "LOUNGEWEAR LOVE",
-    desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
+    title: "SMARTPHONE LOVERS",
+    desc: "E QUEM NÃO SE APAIXONA POR UM DISPOSITIVO TÃO PEQUENO E ÚTIL? ESTÁ PENSANDO EM TROCAR OU COMPRAR UM NOVO? AQUI É O LUGAR.",
     bg: "fbf0f4",
   },
 ];
@@ -26,51 +26,52 @@ export const categories = [
   {
     id: 1,
     img: "https://picsum.photos/id/4/650/940",
-    title: "SHIRT STYLE!",
+    title: "ACESSÓRIOS",
   },
   {
     id: 2,
-    img: "https://picsum.photos/id/5/650/940",
-    title: "LOUNGEWEAR LOVE",
+    img: "https://picsum.photos/id/367/650/940",
+    title: "TABLETS",
   },
   {
     id: 3,
     img: "https://picsum.photos/id/6/650/940",
-    title: "LIGHT JACKETS",
+    title: "MACBOOK AIR",
   },
 ];
 
 export const popularProducts = [
   {
     id:1,
-    img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+    img:"https://picsum.photos/seed/acme1/200",
   },
   {
     id:2,
-    img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+    img:"https://picsum.photos/seed/dragon/200",
   },
   {
     id:3,
-    img:"https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+    img:"https://picsum.photos/seed/laptop/200",
   },
   {
     id:4,
-    img:"https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+    img:"https://picsum.photos/seed/dance/200",
   },
   {
     id:5,
-    img:"https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png",
+    img:"https://picsum.photos/seed/cartoon/200",
   },
   {
     id:6,
-    img:"https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
+    img:"https://picsum.photos/seed/frodo/200",
   },
   {
     id:7,
-    img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+    img:"https://picsum.photos/seed/jacksparrow/200",
   },
   {
     id:8,
-    img:"https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
+    img:"https://picsum.photos/seed/strangerthings/200",
   },
-]
+];
+

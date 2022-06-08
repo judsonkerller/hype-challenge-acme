@@ -1,4 +1,4 @@
-import { Badge } from '@mui/material';
+import { Badge, Link } from '@mui/material';
 import { Search } from '@mui/icons-material';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import React from 'react'
@@ -81,16 +81,16 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>
+          <Link href='/' underline='none' color={'Black'}><Logo>
             ACME
-          </Logo>
+          </Logo></Link>
         </Center>
         <Right>
-          <MenuItem>REGISTER</MenuItem>
-          <MenuItem>SIGN IN</MenuItem>
+          <Link href='/login' underline='none' color={'black'}><MenuItem>LOGIN</MenuItem></Link>
+          <Link href="/register" underline='none' color={'Black'}><MenuItem>CADASTRAR-SE</MenuItem></Link>
           <MenuItem>
-          <Badge badgeContent={4} color="primary">
-            <ShoppingCartOutlinedIcon />
+          <Badge badgeContent={1} color="primary">
+            <Link href="/cart" ><ShoppingCartOutlinedIcon /></Link>
           </Badge>
           </MenuItem>
         </Right>
