@@ -13,7 +13,7 @@ import ProductList from "./pages/ProductList";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route path="/" element={<Home />}>
         <Route index element={<Home />} />

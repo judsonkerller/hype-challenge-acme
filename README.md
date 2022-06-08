@@ -9,7 +9,8 @@
    * [Tabela de Conteudo](#tabela-de-conteudo)
    * [Pré-requisitos](#pre-requisitos)
    * [Instalação](#instalacao)
-   * [Como usar](#como-usar)
+   * [Rodando o Front End](#rodandoofrontend)
+   * [Aplicação](#aplicacao)
    * [Tecnologias](#tecnologias)
    * [Observações](#observações)
    * [Autor](#autor)
@@ -37,6 +38,11 @@ $ yarn install
 
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 ```
+
+### Aplicação
+
+https://judsonkerller.github.io/hype-challenge-acme/
+
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
