@@ -3,11 +3,13 @@ import RoomIcon from '@mui/icons-material/Room';
 import PaidIcon from '@mui/icons-material/Paid';
 import EmailIcon from '@mui/icons-material/Email';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
-import styled from "styled-components"
+import styled from "styled-components";
+import { mobile } from "../responsive"
 
 const Container = styled.div`
   display: flex;
   margin: 20px;
+  ${mobile({ flexDirection: "column" })}
 `;
 
 const Left = styled.div`
@@ -42,6 +44,7 @@ const SocialIcon = styled.div`
 const Center = styled.div`
   flex: 1;
   padding: 20px;
+  ${mobile({ display: "none" })}
 `;
 
 const Title = styled.h3`
@@ -64,6 +67,7 @@ const ListItem = styled.li`
 const Right = styled.div`
   flex: 1;
   padding: 20px;
+  ${mobile({ backgroundColor: "#fff8f8" })}
 `;
 
 const ContactItem = styled.div`
